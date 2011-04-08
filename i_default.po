@@ -2577,10 +2577,10 @@ msgid "ui.duration.twoMonths"
 msgstr "2个月"
 
 msgid "ui.edition.community"
-msgstr "Community Edition"
+msgstr "社区版本"
 
 msgid "ui.edition.enterprise"
-msgstr "Enterprise Edition"
+msgstr "企业版本"
 
 msgid "ui.error.help.applicationError"
 msgstr "There has been an error in the Opsview application."
@@ -3294,7 +3294,7 @@ msgid "ui.menu.entry.hosts"
 msgstr "主机"
 
 msgid "ui.menu.entry.hosttemplates"
-msgstr "Host Templates"
+msgstr "主机模板"
 
 msgid "ui.menu.entry.keywords"
 msgstr "关键字"
@@ -3321,7 +3321,7 @@ msgid "ui.menu.entry.nmis"
 msgstr "NMIS"
 
 msgid "ui.menu.entry.notificationmethods"
-msgstr "Notification Methods"
+msgstr "通知方法"
 
 msgid "ui.menu.entry.notifications"
 msgstr "通知"
@@ -3336,7 +3336,7 @@ msgid "ui.menu.entry.preferences"
 msgstr "Preferences"
 
 msgid "ui.menu.entry.processinfo"
-msgstr "Process Info"
+msgstr "进程信息"
 
 msgid "ui.menu.entry.rancid"
 msgstr "RANCID"
@@ -3345,37 +3345,37 @@ msgid "ui.menu.entry.roles"
 msgstr "角色"
 
 msgid "ui.menu.entry.scheduleddowntime"
-msgstr "Scheduled Downtime"
+msgstr "例行维护"
 
 msgid "ui.menu.entry.scheduledreports"
-msgstr "Scheduled Reports"
+msgstr "例行报表"
 
 msgid "ui.menu.entry.schedulingqueue"
 msgstr "Scheduling Queue"
 
 msgid "ui.menu.entry.selections"
-msgstr "Selections"
+msgstr "选中"
 
 msgid "ui.menu.entry.service-all"
-msgstr "Service - All"
+msgstr "服务 - 所有"
 
 msgid "ui.menu.entry.service-critical"
-msgstr "Service - Critical"
+msgstr "服务 - 严重"
 
 msgid "ui.menu.entry.service-unknown"
-msgstr "Service - Unknown"
+msgstr "服务 - 未知的"
 
 msgid "ui.menu.entry.service-warning"
-msgstr "Service - Warning"
+msgstr "服务 - 警告"
 
 msgid "ui.menu.entry.servicechecks"
-msgstr "Service Checks"
+msgstr "服务检测"
 
 msgid "ui.menu.entry.servicedetail"
-msgstr "Service Detail"
+msgstr "服务细节"
 
 msgid "ui.menu.entry.servicegroups"
-msgstr "Service Groups"
+msgstr "服务组"
 
 msgid "ui.menu.entry.slavenodechecks"
 msgstr "Slave Node Checks"
@@ -3387,7 +3387,7 @@ msgid "ui.menu.entry.snmptraps"
 msgstr "SNMP Traps"
 
 msgid "ui.menu.entry.statusandreload"
-msgstr "Status and Reload"
+msgstr "状态"
 
 msgid "ui.menu.entry.systempreferences"
 msgstr "System Preferences"
