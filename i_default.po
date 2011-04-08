@@ -3390,7 +3390,7 @@ msgid "ui.menu.entry.statusandreload"
 msgstr "状态"
 
 msgid "ui.menu.entry.systempreferences"
-msgstr "System Preferences"
+msgstr "系统设置"
 
 msgid "ui.menu.entry.timeperiods"
 msgstr "Time Periods"
@@ -3411,28 +3411,28 @@ msgid "ui.menu.host.label.rancid"
 msgstr "RANCID"
 
 msgid "ui.menu.host.label.result"
-msgstr "Result"
+msgstr "结果"
 
 msgid "ui.menu.label.acknowledge"
-msgstr "Acknowledge"
+msgstr "确认"
 
 msgid "ui.menu.label.editHostConfiguration"
-msgstr "Edit host configuration"
+msgstr "编辑主机设置"
 
 msgid "ui.menu.label.editServiceCheckConfiguration"
-msgstr "Edit service check configuration"
+msgstr "编辑服务检查设置"
 
 msgid "ui.menu.label.hostDetail"
-msgstr "Host detail"
+msgstr "主机详情"
 
 msgid "ui.menu.label.lastCheck"
 msgstr "最后一次检查"
 
 msgid "ui.menu.label.liveHostInterfaces"
-msgstr "View host interfaces"
+msgstr "查看主机接口"
 
 msgid "ui.menu.label.scheduleDowntime"
-msgstr "Schedule downtime"
+msgstr "计划的宕机"
 
 msgid "ui.menu.label.serviceDetail"
 msgstr "服务详情"
@@ -3441,17 +3441,17 @@ msgid "ui.menu.label.serviceSummary"
 msgstr "服务概况"
 
 msgid "ui.menu.label.viewAllServices"
-msgstr "View all services"
+msgstr "查看所有服务"
 
 #. (object.name)
 msgid "ui.menu.label.viewDowntimes"
-msgstr "View downtimes"
+msgstr "查看宕机时间"
 
 msgid "ui.menu.label.viewEvents"
-msgstr "View events"
+msgstr "查看事件"
 
 msgid "ui.menu.label.viewNotifications"
-msgstr "View notifications"
+msgstr "查看通知"
 
 msgid "ui.menu.section.$ident"
 msgstr ""
@@ -3487,22 +3487,22 @@ msgid "ui.menu.section.user"
 msgstr "用户"
 
 msgid "ui.menu.service.help.submitResult"
-msgstr "Submit a result to change the state of this service"
+msgstr "提交一个结果来改变服务的状态"
 
 msgid "ui.menu.service.label.submitResult"
-msgstr "Submit check result"
+msgstr "提交检查结果"
 
 msgid "ui.menu.viewHostStatus"
-msgstr "View host status"
+msgstr "检查主机状态"
 
 msgid "ui.message.accessDenied"
-msgstr "Access Denied"
+msgstr "拒绝访问"
 
 msgid "ui.message.hostNotInConfiguration"
-msgstr "Host does not exist in configuration"
+msgstr "配置中不存在此主机"
 
 msgid "ui.message.loading"
-msgstr "Loading..."
+msgstr "加载中..."
 
 msgid "ui.message.needNetdiscoUrl"
 msgstr "Need to configure the Netdisco URL"
@@ -3547,45 +3547,43 @@ msgid "ui.mrtg.title.networkTraffic"
 msgstr "Network Traffic"
 
 msgid "ui.nagios.title.acknowledge"
-msgstr "Acknowledge"
+msgstr "确认"
 
 msgid "ui.nagios.title.alertHistogram"
-msgstr "Alert Histogram"
+msgstr "告警图表"
 
 msgid "ui.nagios.title.alertHistory"
-msgstr "Alert History"
+msgstr "告警历史"
 
 msgid "ui.nagios.title.alertSummary"
-msgstr "Alert Summary"
+msgstr "告警概况"
 
 msgid "ui.nagios.title.availabilityReport"
-msgstr "Availability Report"
+msgstr "可用性报告"
 
 msgid "ui.nagios.title.comments"
-msgstr "Comments"
+msgstr "备注"
 
 msgid "ui.nagios.title.detail"
-msgstr "Detail"
+msgstr "详情"
 
 msgid "ui.nagios.title.externalCommand"
-msgstr "External Command"
+msgstr "额外的命令"
 
 msgid "ui.nagios.title.logDisplay"
-msgstr "Log Display"
+msgstr "日志显示"
 
 msgid "ui.nagios.title.nagiosConfiguration"
-msgstr "Nagios Configuration"
+msgstr "Nagios 配置"
 
 msgid "ui.nagios.title.networkOutages"
-msgstr "Network Outages"
+msgstr "网络中断"
 
 msgid "ui.nagios.title.notifications"
 msgstr "通知"
 
 msgid "ui.nagios.title.performanceInformation"
-msgstr "Performance Information"
-
-msgid "ui.nagios.title.processInformation"
+msgstr "Performance Information" msgid "ui.nagios.title.processInformation"
 msgstr "Process Information"
 
 msgid "ui.nagios.title.scheduledDowntime"
@@ -3610,37 +3608,37 @@ msgid "ui.nav.button.label.actions"
 msgstr "Actions"
 
 msgid "ui.nav.button.label.options"
-msgstr "OPTIONS"
+msgstr "选项"
 
 msgid "ui.nav.button.label.refresh"
-msgstr "Refresh"
+msgstr "刷新"
 
 msgid "ui.nav.button.label.search"
-msgstr "SEARCH"
+msgstr "搜索"
 
 msgid "ui.nav.help.errorUpdating"
-msgstr "Error updating"
+msgstr "更新时出错"
 
 msgid "ui.nav.status.lastUpdate"
-msgstr "Last update"
+msgstr "最后更新"
 
 msgid "ui.nav.status.serverUpdated"
-msgstr "Server updated"
+msgstr "服务器已更新"
 
 msgid "ui.objecttype.$moniker_lc"
 msgstr ""
 
 msgid "ui.objecttype.agent"
-msgstr "Agent"
+msgstr "客户端"
 
 msgid "ui.objecttype.attribute"
-msgstr "Attribute"
+msgstr "属性"
 
 msgid "ui.objecttype.auditlog"
-msgstr "Audit Log"
+msgstr "审计日志"
 
 msgid "ui.objecttype.contact"
-msgstr "Contact"
+msgstr "联系人"
 
 msgid "ui.objecttype.host"
 msgstr "主机"
@@ -3649,16 +3647,16 @@ msgid "ui.objecttype.hostcheckcommand"
 msgstr "Host Check Command"
 
 msgid "ui.objecttype.hostgroup"
-msgstr "Host Group"
+msgstr "主机组"
 
 msgid "ui.objecttype.hosttemplate"
-msgstr "Host Template"
+msgstr "主机模板"
 
 msgid "ui.objecttype.keyword"
-msgstr "Keyword"
+msgstr "关键字"
 
 msgid "ui.objecttype.module"
-msgstr "Module"
+msgstr "模块"
 
 msgid "ui.objecttype.monitoringserver"
 msgstr "Monitoring Server"
