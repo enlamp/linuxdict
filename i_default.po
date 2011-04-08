@@ -767,10 +767,10 @@ msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsDash"
 msgstr "只允许字母或者_"
 
 msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsOrPeriodDash"
-msgstr "Invalid characters - can only use alphanumerics or: .-"
+msgstr "无效字符 - 只能用字母或者: .-"
 
 msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsOrPeriodDashSpaceDollar"
-msgstr "Can only use alphanumerics, space or: $.-"
+msgstr "只能用字母, 空格或者: $.-"
 
 msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsOrPeriodPlusUnderscoreDash"
 msgstr "只允许用字母或者: .+_-"
@@ -788,19 +788,19 @@ msgid "ui.admin.edit.validation.invalidEmail"
 msgstr "无效的邮箱格式"
 
 msgid "ui.admin.edit.validation.invalidURL"
-msgstr "Must be a fully qualfied URL, for example http://server.domain/path?key=value"
+msgstr "必须全URL, 例如 http://server.domain/path?key=value"
 
 msgid "ui.admin.edit.validation.nonUniqueName"
-msgstr "Name is not unique"
+msgstr "名字不唯一"
 
 msgid "ui.admin.edit.validation.nonUniqueUsername"
-msgstr "Username is not unique"
+msgstr "用户名不唯一"
 
 msgid "ui.admin.edit.validation.requireCommand"
-msgstr "Must specify a command"
+msgstr "必须指定命令"
 
 msgid "ui.admin.edit.validation.requireEightCharacters"
-msgstr "Must be at least 8 characters long"
+msgstr "必须8字符长"
 
 msgid "ui.admin.edit.validation.requireNumberNoLeadingZeros"
 msgstr "Must be 1 or more (no leading 0s)"
@@ -830,37 +830,37 @@ msgid "ui.admin.exceptions.label.hostTimedOverride"
 msgstr "Host Timed Override"
 
 msgid "ui.admin.exceptions.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.exceptions.label.notApplicable"
-msgstr "N/A"
+msgstr "未知"
 
 msgid "ui.admin.exceptions.label.timeperiod"
-msgstr "Time Period"
+msgstr "时间段"
 
 msgid "ui.admin.exceptions.label.type"
-msgstr "Type"
+msgstr "类型"
 
 msgid "ui.admin.graph.title"
 msgstr "ODW Service Graph"
 
 msgid "ui.admin.help.examples"
-msgstr "Examples"
+msgstr "示例"
 
 msgid "ui.admin.help.minutes"
-msgstr "Minutes"
+msgstr "分"
 
 msgid "ui.admin.help.noItems"
-msgstr "No items"
+msgstr "没有此项"
 
 msgid "ui.admin.help.seconds"
-msgstr "Seconds"
+msgstr "秒"
 
 msgid "ui.admin.host.edit.action.queryHost"
-msgstr "Query Host"
+msgstr "查询主机"
 
 msgid "ui.admin.host.edit.action.rescan"
-msgstr "Rescan"
+msgstr "重新扫描"
 
 msgid "ui.admin.host.edit.action.snmpWalk"
 msgstr "SNMP Walk"
@@ -914,28 +914,28 @@ msgid "ui.admin.host.edit.helpline.otherAddresses"
 msgstr "Other network addresses for this host, comma separated"
 
 msgid "ui.admin.host.edit.helpline.primaryHostname"
-msgstr "Network address (required)"
+msgstr "网络地址 (必需)"
 
 msgid "ui.admin.host.edit.hostattributes.label.addNewAttribute"
-msgstr "Add New Attribute"
+msgstr "添加新的属性"
 
 msgid "ui.admin.host.edit.hostattributes.label.name"
-msgstr "Label"
+msgstr "标签"
 
 msgid "ui.admin.host.edit.hostattributes.label.value"
-msgstr "Value"
+msgstr "值"
 
 msgid "ui.admin.host.edit.interfaces.critical.duplicateNames"
 msgstr "There are duplicate names in the interface SNMP table which has some limitations."
 
 msgid "ui.admin.host.edit.interfaces.heading.criticalThreshold"
-msgstr "Critical"
+msgstr "严重"
 
 msgid "ui.admin.host.edit.interfaces.heading.discards"
-msgstr "Discards"
+msgstr "放弃修改"
 
 msgid "ui.admin.host.edit.interfaces.heading.errors"
-msgstr "Errors"
+msgstr "错误"
 
 msgid "ui.admin.host.edit.interfaces.heading.help.discards"
 msgstr "> # per minute in one polling cycle"
@@ -953,19 +953,19 @@ msgid "ui.admin.host.edit.interfaces.heading.toPoll"
 msgstr "Interfaces to poll"
 
 msgid "ui.admin.host.edit.interfaces.heading.warningThreshold"
-msgstr "Warning"
+msgstr "警告"
 
 msgid "ui.admin.host.edit.interfaces.help.successfulTestConnection"
-msgstr "Successfully connected via SNMP!"
+msgstr "成功通过SNMP连接!"
 
 msgid "ui.admin.host.edit.interfaces.help.systemDescription"
-msgstr "System description"
+msgstr "系统描述"
 
 msgid "ui.admin.host.edit.interfaces.noInterfacesFound"
 msgstr "No interfaces found - click Query Host to start scanning for interfaces"
 
 msgid "ui.admin.host.edit.label.alias"
-msgstr "Description"
+msgstr "描述"
 
 msgid "ui.admin.host.edit.label.checkInterval"
 msgstr "检查时间间隔"
@@ -977,22 +977,22 @@ msgid "ui.admin.host.edit.label.enableSNMP"
 msgstr "启用SNMP"
 
 msgid "ui.admin.host.edit.label.flapDetection"
-msgstr "Flap Detection"
+msgstr "反复检测"
 
 msgid "ui.admin.host.edit.label.hostAttributes"
-msgstr "Host Attributes"
+msgstr "主机属性"
 
 msgid "ui.admin.host.edit.label.hostCheckCommand"
-msgstr "Host Check Command"
+msgstr "检查主机命令"
 
 msgid "ui.admin.host.edit.label.hostgroup"
 msgstr "主机组"
 
 msgid "ui.admin.host.edit.label.hosttemplates"
-msgstr "Host Templates"
+msgstr "主机模板"
 
 msgid "ui.admin.host.edit.label.icon"
-msgstr "Icon"
+msgstr "图标"
 
 msgid "ui.admin.host.edit.label.keywords"
 msgstr "关键字"
@@ -1106,10 +1106,10 @@ msgid "ui.admin.host.interfaces.overview"
 msgstr "This page configures the interfaces on a host which are queried via SNMP. You can select which interfaces are monitored, the alert levels for throughput, errors and discards, either using the default levels or custom levels per interface. For the interfaces to be regularly checked, you have to associate the Interface, Errors and Discards service checks with each host. Interfaces configured here can be referenced from the INTERFACE host attribute."
 
 msgid "ui.admin.host.interfaces.validation.error.discards"
-msgstr "Digits only"
+msgstr "仅数字"
 
 msgid "ui.admin.host.interfaces.validation.error.throughput"
-msgstr "Numbers or percentage only"
+msgstr "仅数字和百分比"
 
 msgid "ui.admin.host.label.excludedServiceCheck"
 msgstr "Excluded service check"
@@ -1121,7 +1121,7 @@ msgid "ui.admin.host.list.title"
 msgstr "主机列表"
 
 msgid "ui.admin.host.menu.editHostInterfaces"
-msgstr "Edit host interfaces"
+msgstr "编辑主机接口"
 
 msgid "ui.admin.host.menu.help.noStatus"
 msgstr "No status yet - must reload"
@@ -1130,7 +1130,7 @@ msgid "ui.admin.host.menu.resolveServiceChecks"
 msgstr "Resolve service checks"
 
 msgid "ui.admin.host.menu.status"
-msgstr "View status"
+msgstr "查看状态"
 
 msgid "ui.admin.host.message.cannotDeleteAsMonitoringServer"
 msgstr "You cannot delete this host as it is a monitoring server"
@@ -1142,13 +1142,13 @@ msgid "ui.admin.host.table.title.host"
 msgstr "主机"
 
 msgid "ui.admin.host.table.title.hostgroup"
-msgstr "Host Group"
+msgstr "主机组"
 
 msgid "ui.admin.host.table.title.hostip"
-msgstr "Network Address"
+msgstr "网络地址"
 
 msgid "ui.admin.host.table.title.hosttemplates"
-msgstr "Host Templates"
+msgstr "主机模板"
 
 #. ($o->name)
 msgid "ui.admin.host.title.resolvedServices %1"
