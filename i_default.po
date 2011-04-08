@@ -560,10 +560,10 @@ msgid "ui.admin.auditlog.list.title"
 msgstr "审计日志"
 
 msgid "ui.admin.auditlog.table.title.datetime"
-msgstr "Date / Time"
+msgstr "日期 / 时间"
 
 msgid "ui.admin.auditlog.table.title.text"
-msgstr "Text"
+msgstr "文本"
 
 msgid "ui.admin.auditlog.table.title.username"
 msgstr "用户名"
@@ -618,13 +618,13 @@ msgid "ui.admin.contact.edit.label.comments"
 msgstr "注释"
 
 msgid "ui.admin.contact.edit.label.confirmPassword"
-msgstr "Confirm Password"
+msgstr "确认密码"
 
 msgid "ui.admin.contact.edit.label.hostNotificationOptions"
-msgstr "Notify for Host On:"
+msgstr "在主机状态中通知:"
 
 msgid "ui.admin.contact.edit.label.initialPassword"
-msgstr "Set Initial Password"
+msgstr "设置初始密码"
 
 msgid "ui.admin.contact.edit.label.language"
 msgstr "语言"
@@ -633,7 +633,7 @@ msgid "ui.admin.contact.edit.label.name"
 msgstr "名称"
 
 msgid "ui.admin.contact.edit.label.notificationLevel"
-msgstr "接受警告"
+msgstr "接收警告"
 
 msgid "ui.admin.contact.edit.label.notificationPeriod"
 msgstr "通知时间段"
@@ -678,7 +678,7 @@ msgid "ui.admin.contact.table.title.notificationProfiles"
 msgstr "配置文件"
 
 msgid "ui.admin.contact.table.title.realm"
-msgstr "Realm"
+msgstr "认证"
 
 msgid "ui.admin.contact.table.title.role"
 msgstr "角色"
@@ -688,7 +688,7 @@ msgstr "用户名"
 
 #. ($c->stash->{title_description}, $c->stash->{object}->name)
 msgid "ui.admin.description.clone %1 %2"
-msgstr "New %1 cloned from %2"
+msgstr "从 %2 中新克隆 %1 "
 
 msgid "ui.admin.description.edit"
 msgstr "编辑"
@@ -722,19 +722,19 @@ msgid "ui.admin.edit.help.chooseFromList"
 msgstr "从列表中选取"
 
 msgid "ui.admin.edit.help.objectLockedFromEdit"
-msgstr "This object cannot be edited"
+msgstr "此目标不能被编辑"
 
 msgid "ui.admin.edit.label.critical"
-msgstr "Critical"
+msgstr "严重"
 
 msgid "ui.admin.edit.label.down"
-msgstr "Down"
+msgstr "宕机"
 
 msgid "ui.admin.edit.label.exampleTrap"
 msgstr "Example Trap"
 
 msgid "ui.admin.edit.label.flapping"
-msgstr "Flapping"
+msgstr "反复"
 
 msgid "ui.admin.edit.label.recovery"
 msgstr "恢复"
@@ -749,22 +749,22 @@ msgid "ui.admin.edit.label.warning"
 msgstr "警告"
 
 msgid "ui.admin.edit.tab.help.more"
-msgstr "More tabs are available on the next screen"
+msgstr "更多页面在下一屏"
 
 msgid "ui.admin.edit.tab.help.next"
-msgstr "These tabs are available on the next screen"
+msgstr "这些页面在下一屏"
 
 msgid "ui.admin.edit.validation.durationSyntaxInvalid"
-msgstr "Invalid duration syntax"
+msgstr "无效的时间段语法"
 
 msgid "ui.admin.edit.validation.generalFailure"
-msgstr "Validation failure"
+msgstr "验证失败"
 
 msgid "ui.admin.edit.validation.invalidCharacters"
-msgstr "Invalid characters"
+msgstr "无效字符"
 
 msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsDash"
-msgstr "Alphanumerics and dash only"
+msgstr "只允许字母或者_"
 
 msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsOrPeriodDash"
 msgstr "Invalid characters - can only use alphanumerics or: .-"
@@ -773,19 +773,19 @@ msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsOrPeriodDashSp
 msgstr "Can only use alphanumerics, space or: $.-"
 
 msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsOrPeriodPlusUnderscoreDash"
-msgstr "Can only use alphanumerics or: .+_-"
+msgstr "只允许用字母或者: .+_-"
 
 msgid "ui.admin.edit.validation.invalidCharactersOnlyAlphanumericsOrSpaceDashPeriodSlashPlus"
-msgstr "Can only use alphanumerics, space or: -./+"
+msgstr "只允许用字母,空格或者: -./+"
 
 msgid "ui.admin.edit.validation.invalidCurlyBrackets"
-msgstr "Cannot use '{' or '}'"
+msgstr "不能使用 '{' 或 '}'"
 
 msgid "ui.admin.edit.validation.invalidDateTime"
-msgstr "Invalid date-time specification"
+msgstr "无效的时间格式"
 
 msgid "ui.admin.edit.validation.invalidEmail"
-msgstr "Invalid format for email address"
+msgstr "无效的邮箱格式"
 
 msgid "ui.admin.edit.validation.invalidURL"
 msgstr "Must be a fully qualfied URL, for example http://server.domain/path?key=value"
