@@ -394,7 +394,7 @@ msgid "ui.about.heading.technicalSupport"
 msgstr "技术支持"
 
 msgid "ui.about.heading.thirdpartycomponents"
-msgstr "Third Party Components"
+msgstr "第三方组件"
 
 #. (opsera_link)
 msgid "ui.about.opsviewDevelopedBy %1"
