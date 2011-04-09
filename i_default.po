@@ -506,7 +506,7 @@ msgid "ui.admin.attribute.edit.label.defaultValue"
 msgstr "Default Value"
 
 msgid "ui.admin.attribute.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.attribute.list.help.internallyGeneratedAttribute"
 msgstr "This attribute is internally generated"
@@ -1112,10 +1112,10 @@ msgid "ui.admin.host.interfaces.validation.error.throughput"
 msgstr "仅数字和百分比"
 
 msgid "ui.admin.host.label.excludedServiceCheck"
-msgstr "Excluded service check"
+msgstr "已排除的服务检"
 
 msgid "ui.admin.host.label.serviceCheckExcludedFromHostTemplates"
-msgstr "Service check excluded from subsequent host templates"
+msgstr "从主机模板中排除的服务检查"
 
 msgid "ui.admin.host.list.title"
 msgstr "主机列表"
@@ -1124,7 +1124,7 @@ msgid "ui.admin.host.menu.editHostInterfaces"
 msgstr "编辑主机接口"
 
 msgid "ui.admin.host.menu.help.noStatus"
-msgstr "No status yet - must reload"
+msgstr "目前没有状态 - 需要重载"
 
 msgid "ui.admin.host.menu.resolveServiceChecks"
 msgstr "Resolve service checks"
@@ -1136,7 +1136,7 @@ msgid "ui.admin.host.message.cannotDeleteAsMonitoringServer"
 msgstr "You cannot delete this host as it is a monitoring server"
 
 msgid "ui.admin.host.queryhost.title.editHostInterfaces"
-msgstr "Edit Host Interfaces"
+msgstr "编辑主机接口"
 
 msgid "ui.admin.host.table.title.host"
 msgstr "主机"
@@ -1155,61 +1155,61 @@ msgid "ui.admin.host.title.resolvedServices %1"
 msgstr "Resolved services for %1"
 
 msgid "ui.admin.hostcheckcommand.edit.label.arguments"
-msgstr "Arguments"
+msgstr "参数"
 
 msgid "ui.admin.hostcheckcommand.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.hostcheckcommand.edit.label.plugin"
-msgstr "Plugin"
+msgstr "插件"
 
 msgid "ui.admin.hostcheckcommand.help.listHosts"
-msgstr "List Hosts"
+msgstr "列出主机"
 
 msgid "ui.admin.hostcheckcommand.list.title"
-msgstr "Host Check Commands"
+msgstr "主机检查命令"
 
 msgid "ui.admin.hostcheckcommand.table.title.hostcheckcommand"
-msgstr "Host Check Command"
+msgstr "主机检查命令"
 
 msgid "ui.admin.hostcheckcommand.table.title.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.admin.hostcheckcommand.table.title.summary"
-msgstr "Summary"
+msgstr "概况"
 
 msgid "ui.admin.hostgroup.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 #. ($name)
 msgid "ui.admin.hostgroup.error.leafNameAlreadyUsed %1"
-msgstr "Name already used for a leaf hostgroup: %1"
+msgstr "名字已经被叶子主机组 %1 使用"
 
 msgid "ui.admin.hostgroup.graph.addChild"
-msgstr "Add child group"
+msgstr "添加子组"
 
 msgid "ui.admin.hostgroup.graph.button.add"
-msgstr "Add"
+msgstr "添加"
 
 msgid "ui.admin.hostgroup.graph.button.rename"
-msgstr "Rename"
+msgstr "重命名"
 
 #. (object.name)
 msgid "ui.admin.hostgroup.graph.deleteHostgroupWithInheritance %1"
-msgstr "Are you sure you want to delete '%1'? (children will be inherited by parent)"
+msgstr "你确认要删除主机组 '%1'? (子节点也将被删除)"
 
 msgid "ui.admin.hostgroup.graph.help.addInto"
-msgstr "Add into"
+msgstr "添加到"
 
 msgid "ui.admin.hostgroup.graph.help.rename"
-msgstr "Rename"
+msgstr "重命名"
 
 msgid "ui.admin.hostgroup.graph.removeHostgroup"
-msgstr "Remove group"
+msgstr "删除组"
 
 #. (object.name)
 msgid "ui.admin.hostgroup.graph.rename %1"
-msgstr "Rename '%1'"
+msgstr "重命名 '%1'"
 
 msgid "ui.admin.hostgroup.graph.title"
 msgstr "Host Groups Hierarchy"
@@ -1218,13 +1218,13 @@ msgid "ui.admin.hostgroup.list.help.cannotDeleteHostsStillUsing"
 msgstr "Cannot delete as there are hosts using this host group"
 
 msgid "ui.admin.hostgroup.list.table.title.hostgroup"
-msgstr "Host Group"
+msgstr "主机组"
 
 msgid "ui.admin.hostgroup.list.table.title.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.admin.hostgroup.list.title"
-msgstr "Host Groups"
+msgstr "主机组"
 
 msgid "ui.admin.hosttemplate.alert.duplicateURLNames"
 msgstr "There are duplicate URL names - please ensure they are unique"
@@ -1254,16 +1254,16 @@ msgid "ui.admin.hosttemplate.edit.label.description"
 msgstr "Description"
 
 msgid "ui.admin.hosttemplate.edit.label.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.admin.hosttemplate.edit.label.managementurl"
 msgstr "Management URLs"
 
 msgid "ui.admin.hosttemplate.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.hosttemplate.edit.managementurl.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.hosttemplate.edit.managementurl.label.url"
 msgstr "URL"
@@ -1281,7 +1281,7 @@ msgid "ui.admin.hosttemplate.table.title.description"
 msgstr "Description"
 
 msgid "ui.admin.hosttemplate.table.title.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.admin.hosttemplate.table.title.servicechecks"
 msgstr "SCs"
@@ -1314,7 +1314,7 @@ msgid "ui.admin.keyword.edit.label.allServicechecks"
 msgstr "All Service Checks"
 
 msgid "ui.admin.keyword.edit.label.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.admin.keyword.edit.label.roles"
 msgstr "角色"
@@ -1332,7 +1332,7 @@ msgid "ui.admin.keyword.label.enable"
 msgstr "Enable"
 
 msgid "ui.admin.keyword.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.keyword.label.style"
 msgstr "Style"
@@ -1353,7 +1353,7 @@ msgid "ui.admin.keyword.table.title.description"
 msgstr "Description"
 
 msgid "ui.admin.keyword.table.title.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.admin.keyword.table.title.keyword"
 msgstr "Keyword"
@@ -1420,7 +1420,7 @@ msgid "ui.admin.module.edit.label.enabled"
 msgstr "Enabled"
 
 msgid "ui.admin.module.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.module.edit.label.namespace"
 msgstr "Namespace"
@@ -1450,7 +1450,7 @@ msgid "ui.admin.monitoringserver.edit.label.host"
 msgstr "主机"
 
 msgid "ui.admin.monitoringserver.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.monitoringserver.edit.label.passive"
 msgstr "Passive"
@@ -1535,7 +1535,7 @@ msgid "ui.admin.notificationmethod.table.title.command"
 msgstr "Command"
 
 msgid "ui.admin.notificationmethod.table.title.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.notificationmethod.table.title.runOn"
 msgstr "Run On"
@@ -1582,7 +1582,7 @@ msgid "ui.admin.notificationmethods.edit.label.contactVariables"
 msgstr "Contact Variables"
 
 msgid "ui.admin.notificationmethods.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.notificationmethods.edit.label.runOn"
 msgstr "Run On"
@@ -1640,7 +1640,7 @@ msgid "ui.admin.notificationprofile.table.title.methods"
 msgstr "Methods"
 
 msgid "ui.admin.notificationprofile.table.title.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.notificationprofile.table.title.objects"
 msgstr "Objects"
@@ -1746,7 +1746,7 @@ msgid "ui.admin.role.edit.label.monitoringservers"
 msgstr "Monitoring Servers"
 
 msgid "ui.admin.role.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.role.list.help.cannotDeleteRolesStillUsed"
 msgstr "Cannot delete roles which contacts are still using"
@@ -1869,7 +1869,7 @@ msgid "ui.admin.servicecheck.edit.label.multipleServices"
 msgstr "Create Multiple Services"
 
 msgid "ui.admin.servicecheck.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.servicecheck.edit.label.noRate"
 msgstr "No rate"
@@ -2006,7 +2006,7 @@ msgid "ui.admin.servicecheck.menu.label.status"
 msgstr "状态"
 
 msgid "ui.admin.servicecheck.table.title.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.admin.servicecheck.table.title.hosttemplates"
 msgstr "Host Templ"
@@ -2018,7 +2018,7 @@ msgid "ui.admin.servicecheck.table.title.summary"
 msgstr "Summary"
 
 msgid "ui.admin.servicegroup.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.servicegroup.help.cannotDelete"
 msgstr "Cannot delete as there are service checks using this service group"
@@ -2122,7 +2122,7 @@ msgid "ui.admin.snmptrapdebug.help.confirmDeleteDebug"
 msgstr "Are you sure you want to delete all debug data?"
 
 msgid "ui.admin.snmptrapdebug.table.title.packet"
-msgstr "Packet"
+msgstr "数据包"
 
 msgid "ui.admin.snmptrapdebug.table.title.processingTime"
 msgstr "Processing Time"
@@ -2188,7 +2188,7 @@ msgid "ui.admin.snmptrapexception.table.title.hostip"
 msgstr "Hostip"
 
 msgid "ui.admin.snmptrapexception.table.title.packet"
-msgstr "Packet"
+msgstr "数据包"
 
 msgid "ui.admin.snmptrapexception.table.title.reason"
 msgstr "Reason"
@@ -2212,7 +2212,7 @@ msgid "ui.admin.snmptraprule.edit.label.message"
 msgstr "Message"
 
 msgid "ui.admin.snmptraprule.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.snmptraprule.edit.label.rule"
 msgstr "Rule"
@@ -2242,7 +2242,7 @@ msgid "ui.admin.snmptraprule.table.title.message"
 msgstr "Message"
 
 msgid "ui.admin.snmptraprule.table.title.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.snmptraprule.table.title.rule"
 msgstr "Rule"
@@ -2426,7 +2426,7 @@ msgid "ui.admin.timeperiod.edit.label.alias"
 msgstr "Alias"
 
 msgid "ui.admin.timeperiod.edit.label.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.admin.timeperiod.list.help.cannotDelete"
 msgstr "Cannot delete as there are objects using this time period"
@@ -2477,7 +2477,7 @@ msgid "ui.auto.tab.host"
 msgstr "主机"
 
 msgid "ui.auto.tab.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.auto.tab.hosttemplate"
 msgstr "Host Template"
@@ -2673,70 +2673,70 @@ msgid "ui.event.label.keyword"
 msgstr "关键字"
 
 msgid "ui.event.label.loading"
-msgstr "Loading..."
+msgstr "加载中..."
 
 msgid "ui.event.label.output"
-msgstr "Output"
+msgstr "输出"
 
 msgid "ui.event.label.rowsPerPage"
-msgstr "Rows Per Page"
+msgstr "每页行数"
 
 msgid "ui.event.label.select"
-msgstr "Select"
+msgstr "选择"
 
 msgid "ui.event.label.service"
 msgstr "服务"
 
 msgid "ui.event.label.serviceState"
-msgstr "Service State"
+msgstr "服务状态"
 
 msgid "ui.event.label.servicestate"
-msgstr "Service State"
+msgstr "服务状态"
 
 msgid "ui.event.label.showTimeline"
-msgstr "Show Timeline"
+msgstr "显示时间轴"
 
 msgid "ui.event.label.startTime"
-msgstr "Start Time"
+msgstr "开始时间"
 
 msgid "ui.event.label.state"
 msgstr "状态"
 
 msgid "ui.event.label.stateType"
-msgstr "State Type"
+msgstr "状态类型"
 
 msgid "ui.event.label.time"
-msgstr "Time"
+msgstr "时间"
 
 msgid "ui.event.label.timelineUpdateError"
-msgstr "Error updating timeline"
+msgstr "更新时间轴出错"
 
 msgid "ui.event.label.viewNewEvents"
-msgstr "View"
+msgstr "查看"
 
 msgid "ui.event.label.viewTimeline"
-msgstr "View Timeline"
+msgstr "查看时间轴"
 
 msgid "ui.event.table.title.host"
 msgstr "主机"
 
 msgid "ui.event.table.title.hostgroup"
-msgstr "Host Group"
+msgstr "主机组"
 
 msgid "ui.event.table.title.output"
-msgstr "Output"
+msgstr "输出"
 
 msgid "ui.event.table.title.service"
 msgstr "服务"
 
 msgid "ui.event.table.title.state"
-msgstr "State"
+msgstr "状态"
 
 msgid "ui.event.table.title.stateType"
-msgstr "State Type"
+msgstr "状态类型"
 
 msgid "ui.event.table.title.time"
-msgstr "Time"
+msgstr "时间"
 
 msgid "ui.event.title"
 msgstr "事件"
@@ -2761,13 +2761,13 @@ msgid "ui.footer.message.refresh"
 msgstr "Refresh in"
 
 msgid "ui.footer.message.start"
-msgstr "Start"
+msgstr "开始"
 
 msgid "ui.footer.message.stop"
-msgstr "Stop"
+msgstr "停止"
 
 msgid "ui.graph.button.addSeriesButton"
-msgstr "Add"
+msgstr "添加"
 
 msgid "ui.graph.button.graph"
 msgstr "Graph"
@@ -2842,22 +2842,22 @@ msgid "ui.graph.label.go"
 msgstr "Go"
 
 msgid "ui.graph.label.graph"
-msgstr "Graph"
+msgstr "图表"
 
 msgid "ui.graph.label.graphType"
-msgstr "Graph Type"
+msgstr "图表类型"
 
 msgid "ui.graph.label.hoverOverPlotPointLabelAuto"
-msgstr "Auto"
+msgstr "自动"
 
 msgid "ui.graph.label.hoverOverPlotPointLabelRaw"
 msgstr "Raw"
 
 msgid "ui.graph.label.loading"
-msgstr "Loading"
+msgstr "加载"
 
 msgid "ui.graph.label.optionsTitle"
-msgstr "Options"
+msgstr "选项"
 
 msgid "ui.graph.label.pageLink"
 msgstr "Link"
@@ -2887,34 +2887,34 @@ msgid "ui.graph.label.zoomTooltip"
 msgstr "Click to zoom"
 
 msgid "ui.graph.objects.label.all"
-msgstr "All"
+msgstr "所有"
 
 msgid "ui.graph.ongraph.short.average"
-msgstr "Avg"
+msgstr "平均"
 
 msgid "ui.graph.ongraph.short.current"
-msgstr "Cur"
+msgstr "当前"
 
 msgid "ui.graph.ongraph.short.max"
-msgstr "Max"
+msgstr "最大"
 
 msgid "ui.graph.ongraph.short.metric"
-msgstr "Metric"
+msgstr "度量"
 
 msgid "ui.graph.ongraph.short.min"
-msgstr "Min"
+msgstr "最小"
 
 msgid "ui.graph.options.help.defaultNow"
-msgstr "Now"
+msgstr "现在"
 
 msgid "ui.graph.options.help.pixels"
 msgstr "Pixels"
 
 msgid "ui.graph.options.label.automatic"
-msgstr "Automatic"
+msgstr "自动"
 
 msgid "ui.graph.options.label.end"
-msgstr "End"
+msgstr "结尾"
 
 msgid "ui.graph.options.label.fixedscale"
 msgstr "Fixed Scale"
@@ -2923,7 +2923,7 @@ msgid "ui.graph.options.label.giga"
 msgstr "Giga"
 
 msgid "ui.graph.options.label.height"
-msgstr "Height"
+msgstr "高度"
 
 msgid "ui.graph.options.label.kilo"
 msgstr "Kilo"
@@ -3099,58 +3099,58 @@ msgid "ui.javascript.useCommaSeparateKeywords"
 msgstr "Use a comma to separate between different keywords"
 
 msgid "ui.label.day.friday"
-msgstr "Friday"
+msgstr "星期五"
 
 msgid "ui.label.day.monday"
-msgstr "Monday"
+msgstr "星期一"
 
 msgid "ui.label.day.saturday"
-msgstr "Saturday"
+msgstr "星期六"
 
 msgid "ui.label.day.sunday"
-msgstr "Sunday"
+msgstr "星期日"
 
 msgid "ui.label.day.thursday"
-msgstr "Thursday"
+msgstr "星期四"
 
 msgid "ui.label.day.tuesday"
-msgstr "Tuesday"
+msgstr "星期二"
 
 msgid "ui.label.day.wednesday"
-msgstr "Wednesday"
+msgstr "星期三"
 
 msgid "ui.label.hosts"
-msgstr "Hosts"
+msgstr "主机"
 
 msgid "ui.label.login"
-msgstr "Login"
+msgstr "登录"
 
 msgid "ui.label.logout"
-msgstr "Logout"
+msgstr "登出"
 
 msgid "ui.label.metrics"
 msgstr "Metrics"
 
 msgid "ui.label.services"
-msgstr "Services"
+msgstr "服务"
 
 msgid "ui.languages.label.useBrowser"
-msgstr "Use browser setting"
+msgstr "使用浏览器设置"
 
 msgid "ui.login.field.password"
-msgstr "Password"
+msgstr "密码"
 
 msgid "ui.login.field.username"
 msgstr "用户名"
 
 msgid "ui.login.help.moreInformation"
-msgstr "More information"
+msgstr "更多信息"
 
 msgid "ui.login.help.oldIE"
-msgstr "You are using an unsupported version of Internet Explorer"
+msgstr "你正在使用旧版Internet Explorer,好像不怎么支持"
 
 msgid "ui.login.label.community"
-msgstr "Community"
+msgstr "社区"
 
 msgid "ui.login.label.documentation"
 msgstr "文档"
@@ -3315,7 +3315,7 @@ msgid "ui.menu.entry.networkmap"
 msgstr "网络图"
 
 msgid "ui.menu.entry.networkoutages"
-msgstr "Network Outages"
+msgstr "网络中断"
 
 msgid "ui.menu.entry.nmis"
 msgstr "NMIS"
@@ -3327,13 +3327,13 @@ msgid "ui.menu.entry.notifications"
 msgstr "通知"
 
 msgid "ui.menu.entry.parenttree"
-msgstr "Parent Tree"
+msgstr "父节点"
 
 msgid "ui.menu.entry.performanceinfo"
-msgstr "Performance Info"
+msgstr "性能信息"
 
 msgid "ui.menu.entry.preferences"
-msgstr "Preferences"
+msgstr "设置"
 
 msgid "ui.menu.entry.processinfo"
 msgstr "进程信息"
@@ -3351,7 +3351,7 @@ msgid "ui.menu.entry.scheduledreports"
 msgstr "例行报表"
 
 msgid "ui.menu.entry.schedulingqueue"
-msgstr "Scheduling Queue"
+msgstr "调度中的队列"
 
 msgid "ui.menu.entry.selections"
 msgstr "选中"
@@ -3508,43 +3508,45 @@ msgid "ui.message.needNetdiscoUrl"
 msgstr "Need to configure the Netdisco URL"
 
 msgid "ui.message.no"
-msgstr "No"
+msgstr "否"
 
 msgid "ui.message.noPermission"
-msgstr "You do not have permission to do this"
+msgstr "你无权使用此功能"
 
 msgid "ui.message.off"
-msgstr "Off"
+msgstr "关"
 
 msgid "ui.message.on"
-msgstr "On"
+msgstr "开"
 
 msgid "ui.message.pageDoesNotExist"
 msgstr "You have tried to access a page that doesn't exist."
+msgstr "同学，你在尝试访问不存在的页面"
 
 msgid "ui.message.pageDoesNotExist.selectLinkFromMenu"
 msgstr "Please select a link from the navigation menu."
 
 msgid "ui.message.pageNotFound"
-msgstr "Page not found"
+msgstr "页面未找到"
 
 msgid "ui.message.pleaseEnableJavascript"
 msgstr "Please enable JavaScript in your browser before continuing"
+msgstr "请在继续浏览前开启浏览器的JavaScript"
 
 msgid "ui.message.requireJavascript"
-msgstr "JavaScript is required for this web site"
+msgstr "本网站需要 JavaScript 支持"
 
 msgid "ui.message.yes"
-msgstr "Yes"
+msgstr "是"
 
 msgid "ui.messages.seeDocumentation"
-msgstr "See documentation"
+msgstr "查看文档"
 
 msgid "ui.mrtg.title"
-msgstr "Network Traffic"
+msgstr "网络流量"
 
 msgid "ui.mrtg.title.networkTraffic"
-msgstr "Network Traffic"
+msgstr "网络流量"
 
 msgid "ui.nagios.title.acknowledge"
 msgstr "确认"
@@ -3879,7 +3881,7 @@ msgid "ui.state.host.queryhost.title.linkStatus"
 msgstr "Link Status"
 
 msgid "ui.state.host.queryhost.title.name"
-msgstr "Name"
+msgstr "名字"
 
 msgid "ui.state.host.queryhost.title.speed"
 msgstr "Speed"
@@ -4249,32 +4251,32 @@ msgid "ui.viewport.table.title.service"
 msgstr "服务"
 
 msgid "ui.viewport.table.title.servicesSummary"
-msgstr "Services Summary"
+msgstr "服务概况"
 
 msgid "ui.viewport.table.title.status"
 msgstr "状态"
 
 msgid "ui.viewport.table.title.statusInformation"
-msgstr "Status Information"
+msgstr "状态信息"
 
 msgid "ui.viewport.title"
 msgstr "Viewport"
 
 msgid "ui.viewportsummary.label.addToFilter"
-msgstr "Add to Filter"
+msgstr "添加到过滤器"
 
 msgid "ui.viewportsummary.label.clear"
 msgstr "清除"
 
 msgid "ui.viewportsummary.label.pageTitle"
-msgstr "Page Title"
+msgstr "页面标题"
 
 msgid "ui.viewportsummary.label.style"
-msgstr "Style"
+msgstr "样式"
 
 #. ($failures)
 msgid "ui.viewportsummary.style.tagcloud.unhandledFailures %1"
-msgstr "Unhandled failures: %1"
+msgstr "未处理的失败: %1"
 
 #. ("systemprefslink", tablink)
 msgid "ui.welcome.admin.html.surveyLink %1 %2"
@@ -4287,7 +4289,7 @@ msgid "ui.welcome.admin.setForSurvey"
 msgstr "Your system is currently set to participate in this survey."
 
 msgid "ui.welcome.button.continue"
-msgstr "Continue!"
+msgstr "继续!"
 
 msgid "ui.welcome.button.help"
 msgstr "Continue to Opsview"
