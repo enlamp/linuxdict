@@ -2024,16 +2024,16 @@ msgid "ui.admin.servicegroup.help.cannotDelete"
 msgstr "Cannot delete as there are service checks using this service group"
 
 msgid "ui.admin.servicegroup.list.title"
-msgstr "Service Groups"
+msgstr "服务组"
 
 msgid "ui.admin.servicegroup.table.title.servicechecks"
-msgstr "Service Checks"
+msgstr "服务检查"
 
 msgid "ui.admin.servicegroup.table.title.servicegroup"
-msgstr "Service Group"
+msgstr "服务组"
 
 msgid "ui.admin.snmptrap.help.exampleMacrosDump"
-msgstr "Dump all data"
+msgstr "导出所有数据"
 
 msgid "ui.admin.snmptrap.help.exampleMacrosName"
 msgstr "Replace with value for this trap parameter"
