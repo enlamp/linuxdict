@@ -2,16 +2,18 @@
 // Disable E_NOTICE in the first place
 error_reporting(error_reporting() & ~E_NOTICE);
 
+// Where scripts saved
+// TODO: Save to database!
+$scriptDir = "scripts/";
+
 // Kickstart base URL
 // Make sure .htaccess is installed
-$ksurl = "http://localhost/learnphp/ks/scripts/";
+//$ksurl = "http://localhost/learnphp/ks/scripts/";
+$ksurl = "http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].$scriptDir;
 
 // Where plugins is located, including default
 $pluginDir = "post-plugins";
 
-// Where scripts saved
-// TODO: Save to database!
-$scriptDir = "scripts";
 
 $postPlugins = array();
 include ("post-plugins.php");
@@ -379,7 +381,7 @@ Your kickstart url is <a href="<?echo $ksurl ?><?echo $_REQUEST['hostname'] ?>">
 Enter at boot prompt to fully automatic install:
 <p>
 <code style="padding: 8px; background: black; color: white; display: block;">
-	#> text ks=<?echo $ksurl ?><?echo $_REQUEST['hostname'] ?>
+	boot>linux text ks=<?echo $ksurl ?><?echo $_REQUEST['hostname'] ?>
 </code>
 <p>
 <? if (false) { ?>
@@ -388,8 +390,6 @@ Edit kickstart script: <a href="<?echo $ksurl ?><?echo $_REQUEST['hostname'] ?>?
 <? } ?>
 <p>
 Create new kickstart script: <a href="<?echo $ksurl ?>"><?echo $ksurl ?></a>
-<p>
-extra = "text ks=<?echo $ksurl ?><?echo $_REQUEST['hostname'] ?>"<br/>
 </code>
 <?
 } /* action == "save" */
