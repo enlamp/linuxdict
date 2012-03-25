@@ -110,8 +110,9 @@ if ($action == "form") {
 <form action="" name="FormBlock" method="POST">	
 	<input type="hidden" name="action" value="save"/>
 	
+	<h3>Note: Please set the hostname or unselect the Auto generated</h3>
 	<fieldset>
-		<label>Source of install</label>
+		<legend>Source of install</legend>
 		<select name="source">
 			<option selected="true">cdrom</option>
 			<option >url</option>
@@ -119,7 +120,7 @@ if ($action == "form") {
 	</fieldset>		
 	
 	<fieldset>
-		<label>Installation url</label>
+		<legend>Installation url</legend>
 		<select name="url">
 			<?
 			loadSelectOptions("urls", 0);
@@ -129,7 +130,7 @@ if ($action == "form") {
 	</fieldset>
 	
 	<fieldset>
-		<label>Language</label>
+		<legend>Language</legend>
 		<select name="lang">
 			<?
             loadSelectOptions("langs", -1, "en_US");
@@ -154,14 +155,14 @@ if ($action == "form") {
 	</fieldset>
 	
 	<fieldset>
-		<label>Hostname</label>
+		<legend>Hostname</legend>
 		<input type="text" name="hostname" value="ks<?php echo time() ?>" disabled="true" />
 		<input type="checkbox" name="hostnameauto" value="1" checked="checked"/>
 		<label for="hostnameauto">Automatically generated (will be new on every request)</label>		
 	</fieldset>	
 	
 	<fieldset>
-		<label>Network</label>
+		<legend>Network</legend>
 		<select name="network">
 			<option>dhcp</option>
 			<option>static</option>
@@ -171,7 +172,7 @@ if ($action == "form") {
 	</fieldset>
 
 	<fieldset>
-		<label>Static params</label>
+		<legend>Static params</legend>
 		
 		IP
 		<input type="text" name="ip" value="192.168.1.101" />
@@ -187,7 +188,7 @@ if ($action == "form") {
 	</fieldset>
 
 	<fieldset>
-		<label>Root password</label>
+		<legend>Root password</legend>
 		<input type="text" name="rootpw" value="123456" />
 		<input name="rootpwcrypt" type="button" value="Encrypt" /> (encryption done at client-side)
 		<input type="checkbox" name="rootpwcrypted" value="1" />
@@ -195,7 +196,7 @@ if ($action == "form") {
 	</fieldset>
 
 	<fieldset>
-		<label>Firewall</label>
+		<legend>Firewall</legend>
 		<select name="firewall">
 			<option selected="true">enabled</option>
 			<option >disabled</option>
@@ -203,12 +204,12 @@ if ($action == "form") {
 	</fieldset>
 		
 	<fieldset>
-		<label>Firewall allow ports</label>
-		<input type="text" name="firewallports" value="ssh,http,https"> (ports or names, e.g. ssh, comma separated)
+		<legend>Firewall allow ports</legend>
+		<input type="text" name="firewallports" value="ssh,http,https"> (ports or names, e.g. ssh,http,etc or 22,80,443,etc comma separated)
 	</fieldset>
 	
 	<fieldset>
-		<label>SELinux</label>
+		<legend>SELinux</legend>
 		<select name="selinux">
 			<option>enforcing</option>
 			<option>permissive</option>
@@ -217,7 +218,7 @@ if ($action == "form") {
 	</fieldset>	
 
 	<fieldset>
-		<label>Timezone</label>
+		<legend>Timezone</legend>
 		<select name="timezone">
 			<?
 			$deftz = "Asia/Shanghai";
@@ -234,7 +235,7 @@ if ($action == "form") {
 
 	
 	<fieldset>
-		<label>Root drive</label>
+		<legend>Root drive</legend>
 		<select name="hdd">
 			<option>/dev/hda</option>
 			<option>/dev/hdb</option>
@@ -250,7 +251,7 @@ if ($action == "form") {
 	</fieldset>
 
 	<fieldset>
-		<label>Partition model</label>
+		<legend>Partition model</legend>
 		<select name="hddlayout">
 			<option value="BPRV">/boot on root drive, / and swap in volgroup</option>
 			<option value="BPRVHV">/boot on root drive, /, /home and swap in volgroup</option>
@@ -259,42 +260,42 @@ if ($action == "form") {
 	</fieldset>
 	
 	<fieldset>
-		<label>Boot size</label>
+		<legend>Boot size</legend>
 		<input type="text" name="bootsize" value="200m">
 	</fieldset>
 
 	<fieldset>
-		<label>Root size</label>
+		<legend>Root size</legend>
 		<input type="text" name="rootsize" value="5g">
 	</fieldset>
 
 	<fieldset>
-		<label>Var size</label>
+		<legend>Var size</legend>
 		<input type="text" name="varsize" value="3g">
 	</fieldset>
 	
 	<fieldset>
-		<label>Swap size</label>
+		<legend>Swap size</legend>
 		<input type="text" name="swapsize" value="2g">
 	</fieldset>
 	
 	<fieldset>
-		<label>Package groups</label>
+		<legend>Package groups</legend>
 		<div class="block">
 			<input type="checkbox" name="packages-core" checked="checked"> <label for="packages-core">Core (unchecking this is dangerous)</label><br/> 
-			<input type="checkbox" name="packages-server"> <label for="packages-server">Server</label<br/>
+			<input type="checkbox" name="packages-server"> <label for="packages-server">Server</label><br/>
 		</div>
 	</fieldset>
 
 	<fieldset>
-		<label>Additional packages</label>
+		<legend>Additional packages</legend>
 		<div class="block">
 			<textarea name="packages" cols="25" rows="3">yum</textarea>
 		</div>
 	</fieldset>
 	
 	<fieldset>
-		<label>Post-install script (%post)</label>
+		<legend>Post-install script (%post)</legend>
 		<div class="block">
 			Plugins<br>
 			<?

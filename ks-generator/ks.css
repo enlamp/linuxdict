@@ -18,3 +18,12 @@ fieldset {
 #FormBlock label {
 	font-weight: bold;
 }
+
+legend {
+	  padding: 0.2em 0.5em;
+	  border:1px solid;
+	  border-color: rgb(77,144,254);
+	  font-weight: bold;
+	  font-size:100%;
+	  text-align:right;
+}
