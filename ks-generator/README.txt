@@ -47,3 +47,6 @@ GNU GENERAL PUBLIC LICENSE
 Version 2
 See included license.txt
 
+Update from Edy
+1. change the ks.php $ksurl. should no need to setup manually
+2. further work: add repo/other plugins for the server setup, such as AMP package. write log of installation
