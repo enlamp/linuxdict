@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "yum -y update" | at now + 5 min
+
+

@@ -1,0 +1,20 @@
+fieldset {
+    border: 1px solid;
+    border-color: rgb(77,144,254);
+    clear: both;
+    padding: 1.25em;
+}
+
+#FormBlock fieldset select,
+#FormBlock fieldset input {
+	left: 0px;
+    	margin-left: 7em;
+}
+
+#FormBlock fieldset div.block {
+	padding-left: 7em;
+}
+
+#FormBlock label {
+	font-weight: bold;
+}

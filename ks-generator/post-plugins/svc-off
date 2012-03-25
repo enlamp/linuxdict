@@ -1,0 +1,23 @@
+#!/bin/sh
+# Disable not server related services
+chkconfig acpid off
+chkconfig atd off
+chkconfig autofs off
+chkconfig apmd off
+chkconfig auditd off
+chkconfig bluetooth off
+chkconfig cpuspeed off
+chkconfig cups off
+chkconfig firstboot off
+chkconfig gpm off 
+chkconfig ip6tables off
+chkconfig kudzu off
+chkconfig nfslock off
+chkconfig pcscd off
+chkconfig portmap off
+chkconfig rpcgssd off
+chkconfig rpcidmapd off
+chkconfig smartd off
+chkconfig yum-updatesd off
+chkconfig avahi-daemon off
+chkconfig hidd off

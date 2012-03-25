@@ -1,0 +1,4 @@
+#!/bin/sh
+# Enable autofsck on boot
+echo "AUTOFSCK_TIMEOUT=5" > /etc/sysconfig/autofsck
+echo "AUTOFSCK_DEF_CHECK=yes" >> /etc/sysconfig/autofsck

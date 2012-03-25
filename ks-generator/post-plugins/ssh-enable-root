@@ -1,0 +1,6 @@
+#!/bin/sh
+cat /etc/ssh/sshd_config | grep -vE "^[ \t]*PermitRootLogin" > /tmp/sshd_config.ssh-enable-root
+cat /tmp/sshd_config.ssh-enable-root > /etc/ssh/sshd_config
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+
+

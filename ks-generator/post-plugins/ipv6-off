@@ -1,0 +1,4 @@
+#!/bin/sh
+# Disable IPV6
+echo "alias net-pf-10 off" >> /etc/modprobe.conf
+
